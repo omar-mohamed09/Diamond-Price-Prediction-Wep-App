@@ -115,3 +115,6 @@ if btn:
 
         pred_price = model.predict(user_input_trans)[0]
         st.success(f'💎 The Predicted Diamond Price Is : {pred_price:.2f}$')
+        
+# Web App Link
+# https://diamond-price-prediction-wep.streamlit.app/
